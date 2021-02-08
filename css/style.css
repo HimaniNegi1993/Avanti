@@ -1,0 +1,1565 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+
+/*******************************
+*
+* #reset values
+*
+*******************************/
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.wrap__body {
+    position: relative;
+}
+
+.container {
+    width: 92%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+
+/*******************************
+*
+* #body header
+*
+*******************************/
+
+.body__header {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    background: rgba(105, 225, 255, 0.233);
+    background-image: url('/image/banner_background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 80px;
+}
+
+.navbar {
+    position: relative;
+    padding-top: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #222222;
+    margin: 0 16px;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:last-child{
+    margin-right: 0;
+}
+
+.header__banner {
+    padding: 0 180px;
+}
+
+.carousel__content {
+    width: 40%;
+    padding-top: 120px;
+}
+
+.carousel__image {
+    width: 60%;
+}
+
+.image__turtle {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    background-image: url('/image/Turtle-shadow.png');
+    background-repeat: no-repeat;
+    background-size: 100% 102%;
+    margin-left: 20px;
+}
+
+.carousel__heading {
+    width: 90%;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #444444;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.carousel__paragraph {
+    width: 90%;
+    font-size: 16px;
+    color: #222222;
+    margin-bottom: 84px;
+}
+
+.carousel__button {
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 35px;
+    border-radius: 0;
+    background: #50BEC9;
+    border: 0;
+}
+
+.carousel-indicators {
+    bottom: 23%;
+}
+
+.carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+    margin-left: 4px;
+    border-radius: 50%;
+    border: 2px solid #8EB3B9;
+    background: transparent;
+}
+
+.carousel-indicators .active {
+    background-color: #8EB3B9;
+}
+
+.carousel-control-prev,.carousel-control-next {
+	width: 60px;
+    height: 165px;
+    top: 30%;
+	bottom: 30%;
+    transform: translate(0, -30%);
+    padding: 0;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('/image/left-arrow.svg');
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-next-icon {
+    background-image: url('/image/right-arrow.svg');
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-prev {
+    left: -128px;
+}
+
+.carousel-control-next {
+    right: -128px;
+}
+
+.banner__button>.carousel__button {
+    background: #50BEC9;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    padding: 11px 60px;
+    font-size: 16px;
+} 
+
+.banner__button>.carousel__button:active {
+	background: #349da7;
+}
+
+.banner__button>.carousel__button::after {
+	background: #349da7;
+}
+
+
+
+/*******************************
+*
+* #body container
+*
+*******************************/
+
+.body__container {
+    position: relative;
+}
+
+
+
+/*******************************
+*
+* #section aboutAvanti
+*
+*******************************/
+
+.section__aboutAvanti {
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 3;
+}
+
+.aboutAvanti__image {
+    width: 55%;
+    position: relative;
+}
+
+.image__content {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: 2;
+}
+
+.image__heading {
+    font-size: 37px;
+    color: #414141;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.image__subheading {
+    font-family: 'Allura', cursive;
+    font-size: 60px;
+    color: #000000;
+    letter-spacing: 3.5px;
+    word-spacing: 8px;
+    line-height: 60px;
+}
+
+.image__area {
+    width: 74%;
+    height: 602px;
+    max-height: 602px;
+    overflow: hidden;
+}
+
+.image__area>img {
+    width: 100%;
+    height: 100%;
+    transform: scaleX(1.5);
+}
+
+.aboutAvanti__content {
+    width: 45%;
+    padding: 120px 0 30px 60px;
+}
+
+.aboutAvanti__content>.initiative__paragraph {
+    padding-right: 0;
+}
+
+.categories {
+    margin-bottom: 40px;
+}
+
+.category__common {
+    width:150px;
+    height: 146px;
+    border-radius: 16px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.category__common.toy {
+    background: #FCF2F4;
+}
+
+.category__common.beeding {
+    background: #F0F3F7;
+}
+
+.category__common.feeding {
+    background: #FAF4ED;
+}
+
+.circle {
+    background: #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.category__text {
+    font-size: 13px;
+    line-height: 13px;
+    color: #444444;
+}
+
+
+
+/*******************************
+*
+* #section avanti products
+*
+*******************************/
+
+.section__avantiProducts {
+    margin-bottom: 110px;
+    position: relative;
+}
+
+.wrap__products {
+    z-index: 2;
+    position: relative;
+}
+
+.product__link {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+
+.product__heading {
+    font-size: 30px;
+    color: #4B4B4B;
+    margin-bottom: 27px;
+}
+
+.product__content>.initiative__paragraph {
+    width: 100%;
+    padding-right: 50px;
+}
+
+.products__rectangle {
+    width: 340px;
+    height: 670px;
+    background-color: #FCF2F4;
+    position: absolute;
+    top: -390px;
+    left: 0;
+    z-index: 1;
+}
+
+.image__right {
+    width: 80%;
+    height: 593px;
+}
+
+.image__styling {
+    width: 100%;
+    height: 100%;
+    max-height: 593px;
+}
+
+.wrap__products>.content__heading {
+    color: #000;
+}
+
+.product__link>a {
+    color: #414141;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: bold;
+}
+
+.product__link>a:hover {
+    text-decoration: none;
+}
+
+.product__link>a::after {
+    content: '\f105'; 
+    font-family: FontAwesome;
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 14px;  
+}
+
+.product__link:hover>a {
+    color: #6EAA7B;
+}
+
+
+
+/*******************************
+*
+* #section certifications
+*
+*******************************/
+
+.section__certification {
+    margin-bottom: 9%;
+}
+
+.common__heading {
+    font-size: 24px;
+    color: #4B4B4B;
+    margin-bottom: 30px;
+}
+
+.certification__content {
+    margin-bottom: 60px;
+}
+
+.certification__content>.initiative__paragraph {
+    width: 67%;
+} 
+
+.certification__button {
+    width: 37%;
+    text-align: right;
+}
+
+.certification__button>.carousel__button {
+    background: #F78AB8;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    padding: 11px 60px;
+    font-size: 16px;
+} 
+
+.certification__button>.carousel__button:active {
+	background: #F78AB8;
+}
+
+.certification__button>.carousel__button::after {
+	background: #fc549a;
+}
+
+.marquee__image {
+    margin: 0 30px;
+}
+
+
+
+/*******************************
+*
+* #section initiative
+*
+*******************************/
+
+.section__initiative {
+    position: relative;
+    margin: 60px 0 90px;
+}
+
+.initiative__backRectangle {
+    position: absolute;
+    width: 594px;
+    height:382px;
+    background: #E9F1F5;
+    top: -70px;
+    right: 0;
+}
+
+.initiative__heading {
+    font-size: 30px;
+    line-height: 37px;
+    color: #4B4B4B;
+    margin-bottom: 28px;
+}
+
+.initiative__paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4B4B;
+    padding-right: 100px;
+}
+
+.initiative__link {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4B4B;
+    font-weight: 700;
+    border-bottom: 1px solid #4B4B4B;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.initiative__link:hover {
+    text-decoration: none;
+    color: #6EAA7B;
+    border-bottom: 1px solid #6EAA7B;
+    transition: 1s;
+}
+
+.initiative__image>img {
+    max-height: 337px;
+    width: 100%;
+}
+
+
+
+/*******************************
+*
+* #section exploreAvanti
+*
+*******************************/
+
+.section__exploreAvanti {
+    background: #93C69E;
+    position: relative;
+    overflow: hidden;
+}
+
+.side__square {
+    width: 523px;
+    height: 404px;
+    background: #6EAA7B;
+    opacity: 0.16;
+    position: absolute;
+    bottom: -130px;
+    left: -50px;
+    transform: rotate(-25deg);
+    z-index: 1;
+}
+
+.explore__content {
+    width: 60%;
+    padding: 90px 10px 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.content__cursive {
+    font-family: 'Allura', cursive;
+    font-size: 56px;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 56px;
+}
+
+.content__heading {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.content__paragraph {
+    font-size: 24px;
+    color: #fff;
+    line-height: 32px;
+    opacity: 0.9;
+}
+
+.content__heading.link {
+    width: 39%;
+    margin: 0px auto;
+    text-align: center;
+    text-transform: none;
+    margin-top: 70px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.content__heading.link>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content__heading.link::after {
+    content: '\f105'; 
+    font-family: FontAwesome;
+    font-size: 22px;
+    padding-left: 10px;  
+}
+
+
+
+/*******************************
+*
+* #body footer
+*
+*******************************/
+
+.body__footer {
+    padding-top: 75px;
+    padding-bottom: 35px;
+}
+
+.footer__logo {
+    width: 80%;
+    margin-bottom: 115px;
+}
+
+.footer__avanti>h6 {
+    font-size: 14px;
+    color: #989898;
+}
+
+.footer__avanti>p {
+    font-size: 12px;
+    color: #989898;
+}
+
+.footer__heading>h5 {
+    font-size: 14px;
+    color: #989898;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* margin-bottom: 20px; */
+}
+
+.footer__nav {
+    color: #989898;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.footer__nav:hover {
+    color: #50BEC9;
+    text-decoration: none;
+}
+
+.footer__text {
+    color: #989898;
+    font-size: 14px;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width:767px) {  
+
+
+    /*******************************
+    *
+    * #body header
+    *
+    *******************************/
+
+    .body__header {
+        width: 100%;
+        height: 550px;
+        background: #daf6f9;
+        margin-bottom: 70px;
+    }
+
+    .navbar-light .navbar-nav .nav-link:last-child{
+        margin-right: 0;
+    }
+
+    .navbar-nav {
+        background: #c6eaef;
+        margin-top: 5px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 56px;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .header__banner {
+        padding: 0 20px;
+    }
+
+    .carousel__content {
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .carousel__image {
+        width: 300px;
+        height: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image__turtle {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        background-image: url('/image/Turtle-shadow.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-left: 0;
+    }
+
+    .carousel__heading {
+        width: 80%;
+        margin: auto;
+        text-transform: uppercase;
+        font-size: 26px;
+        color: #444444;
+        letter-spacing: 0;
+        margin-bottom: 10px;
+        font-weight: normal;
+    }
+
+    .carousel__paragraph {
+        width: 85%;
+        margin: auto;
+        font-size: 16px;
+        color: #222222;
+        margin-bottom: 35px;
+    }
+
+    .carousel-indicators {
+        bottom: 26%;
+        display: none;
+    }
+
+    .carousel-indicators li {
+        width: 14px;
+        height: 14px;
+        margin-right: 4px;
+        margin-left: 4px;
+        border-radius: 50%;
+        border: 2px solid #8EB3B9;
+        background: transparent;
+    }
+
+    .carousel-indicators .active {
+        background-color: #8EB3B9;
+    }
+
+    .carousel-control-prev,.carousel-control-next {
+	    display: none;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url('/image/left-arrow.svg');
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url('/image/right-arrow.svg');
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-control-prev {
+        left: -128px;
+    }
+
+    .carousel-control-next {
+        right: -128px;
+    }
+
+    .banner__button>.carousel__button {
+        background: #50BEC9;
+        text-align: center;
+        border: none;
+        border-radius: 0;
+        color: #fff;
+        padding: 10px 40px;
+        font-size: 16px;
+    } 
+
+    .banner__button>.carousel__button:active {
+	    background: #349da7;
+    }
+
+    .banner__button>.carousel__button::after {
+	    background: #349da7;
+    }
+
+
+    /*******************************
+    *
+    * #section aboutAvanti
+    *
+    *******************************/
+
+    .section__aboutAvanti {
+        margin-bottom: 40px;
+    }
+
+    .aboutAvanti__image {
+        width: 100%;
+    }
+
+    .image__heading {
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+
+    .image__subheading {
+        font-size: 40px;
+        letter-spacing: 3.5px;
+        word-spacing: 6px;
+        line-height: 40px;
+    }
+
+    .image__area {
+        width: 74%;
+        height: 400px;
+        max-height: 400px;
+    }
+
+    .image__area>img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1.4,1.2);
+    }
+
+    .aboutAvanti__content {
+        width: 100%;
+        padding: 0;
+        margin: 30px 0;
+    }
+
+
+    /*******************************
+    *
+    * #section avanti products
+    *
+    *******************************/
+
+    .section__avantiProducts {
+        margin-bottom: 70px;
+    }
+
+    .product__link {
+        position: absolute;
+        right: 0;
+        bottom: 30px;
+    }
+
+    .product__heading {
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+
+    .product__content>.initiative__paragraph {
+        padding-right: 0;
+    }
+
+    .products__rectangle {
+        display: none;
+    }
+
+    .image__right {
+        width: 82%;
+        height: 450px;
+    }
+
+    .image__styling {
+        max-height: 450px;
+    }
+
+   .product__link>a {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .product__link>a::after {
+        font-size: 30px;
+        padding-left: 10px;  
+    }
+
+
+    /*******************************
+    *
+    * #section certifications
+    *
+    *******************************/
+
+    .section__certification {
+        margin-bottom: 10%;
+    }
+
+    .common__heading {  
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+
+    .certification__content>.initiative__paragraph {
+        width: 100%;
+        margin-bottom: 22px;
+    }
+    
+    .certification__content {
+        margin-bottom: 55px;
+    }
+
+    .certification__button {
+        width: auto;
+        text-align: left;
+    }
+
+    .certification__button>.carousel__button {
+        padding: 11px 45px;
+    } 
+
+    .marquee__image {
+        margin: 0 25px;
+    }
+
+
+    /*******************************
+    *
+    * #section initiative
+    *
+    *******************************/
+
+    .section__initiative {
+        position: relative;
+        margin: 0 0 70px 0;
+    }
+
+    .initiative__backRectangle {
+        display: none;
+    }
+
+    .initiative__heading {
+        font-size: 26px;
+        line-height: 26px;
+        margin-bottom: 26px;
+    }
+
+    .initiative__paragraph {
+        padding-right: 0;
+    }
+
+    .initiative__image>img {
+        max-height: 337px;
+        width: 100%;
+    }
+
+
+
+
+    /*******************************
+    *
+    * #section exploreAvanti
+    *
+    *******************************/
+
+    .explore__content {
+        width: 92%;
+        padding: 40px 0;
+    }
+
+    .content__cursive {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .content__heading {
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    
+    .content__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 1;
+    }
+    
+    .content__heading.link {
+        width: auto;
+        margin-top: 60px;
+        padding-bottom: 8px;
+        border: 0;
+    }
+
+
+    /*******************************
+    *
+    * #body footer
+    *
+    *******************************/
+
+    .footer__logo {
+        width: 232px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .footer__avanti,.footer__brands,.footer__links,.footer__products {
+        border-bottom: 1px solid #8eb3b952;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width:992px) {  
+ 
+
+    /*******************************
+    *
+    * #body header
+    *
+    *******************************/
+
+    .body__header {
+        width: 100%;
+        height: 400px;
+        /* background: #daf6f9; */
+        background-image: url('/image/banner_background.jpg');
+        margin-bottom: 70px;
+    }
+
+    .navbar-light .navbar-nav .nav-link:last-child{
+        margin-right: 0;
+    }
+
+    .navbar-nav {
+        background: #c6eaef;
+        margin-top: 5px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 56px;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .header__banner {
+        padding: 0 20px;
+    }
+
+    .carousel__content {
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .carousel__image {
+        width: 300px;
+        height: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image__turtle {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        background-image: url('/image/Turtle-shadow.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-left: 0;
+    }
+
+    .carousel__heading {
+        width: 80%;
+        margin: auto;
+        font-size: 26px;
+        letter-spacing: 0;
+        margin-bottom: 10px;
+    }
+
+    .carousel__paragraph {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .carousel-indicators {
+        bottom: 26%;
+        display: none;
+    }
+  
+    .carousel-control-prev,.carousel-control-next {
+	    display: none;
+    }
+
+    .carousel-control-prev {
+        left: -128px;
+    }
+
+    .carousel-control-next {
+        right: -128px;
+    }
+
+
+
+
+
+    /*******************************
+    *
+    * #section aboutAvanti
+    *
+    *******************************/
+
+    .section__aboutAvanti {
+        margin-bottom: 40px;
+    }
+
+    .aboutAvanti__image {
+        width: 100%;
+    }
+
+    .image__heading {
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+
+    .image__subheading {
+        font-size: 40px;
+        letter-spacing: 3.5px;
+        word-spacing: 6px;
+        line-height: 40px;
+    }
+
+    .image__area {
+        width: 74%;
+        height: 400px;
+        max-height: 400px;
+    }
+
+    .image__area>img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1,1);
+    }
+
+    .aboutAvanti__content {
+        width: 100%;
+        padding: 0;
+        margin: 30px 0;
+    }
+
+
+
+    /*******************************
+    *
+    * #section avanti products
+    *
+    *******************************/
+
+    .section__avantiProducts {
+        margin-bottom: 70px;
+    }
+       
+    .product__link {
+        position: absolute;
+        right: 0;
+        bottom: 30px;
+    }
+    
+    .product__heading {
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+    
+    .product__content>.initiative__paragraph {
+        padding-right: 0;
+    }
+    
+    .products__rectangle {
+        display: none;
+    }
+    
+    .image__right {
+        width: 75%;
+        height: 400px;
+    }
+    
+    .image__styling {
+        width: 100%;
+        height: 100%;
+        max-height: 593px;
+    }
+    
+    .product__link>a {
+        font-size: 32px;
+    }
+        
+    .product__link>a::after {
+        font-size: 32px;
+        padding-left: 14px;  
+    }
+    
+
+
+    /*******************************
+    *
+    * #section certifications
+    *
+    *******************************/
+
+    .section__certification {
+        margin-bottom: 7%;
+    }
+
+    .common__heading {  
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+
+    .certification__content>.initiative__paragraph {
+        width: 100%;
+        margin-bottom: 22px;
+    }
+    
+    .certification__content {
+        margin-bottom: 55px;
+    }
+
+    .certification__button {
+        width: auto;
+        text-align: left;
+    }
+
+    .certification__button>.carousel__button {
+        padding: 11px 45px;
+    } 
+
+    .marquee__image {
+        margin: 0 25px;
+    }
+
+
+
+    /*******************************
+    *
+    * #section initiative   
+    *
+    *******************************/
+
+    .section__initiative {
+        position: relative;
+        margin: 0 0 80px 0;
+    }
+
+    .initiative__backRectangle {
+        display: none;
+    }   
+
+    .initiative__heading {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 26px;
+        padding-top: 20px;
+    }
+
+    .initiative__paragraph {
+        padding-right: 30px;
+    }
+
+    .initiative__image>img {
+        width: 100%;
+        height: fit-content;
+    }
+
+
+    
+    /*******************************
+    *
+    * #section exploreAvanti
+    *
+    *******************************/
+
+    .explore__content {
+        width: 92%;
+        padding: 40px 0;
+    }
+
+    .content__cursive {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .content__heading {
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    
+    .content__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 1;
+    }
+    
+    .content__heading.link {
+        width: auto;
+        margin-top: 60px;
+        padding-bottom: 8px;
+        border: 0;
+    }
+
+
+
+    /*******************************
+    *
+    * #body footer
+    *
+    *******************************/
+
+    .footer__logo {
+        width: 232px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .footer__avanti,.footer__brands,.footer__links,.footer__products {
+        border-bottom: 1px solid #8eb3b952;
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199px) {
+
+/*******************************
+*
+* #body header
+*
+*******************************/
+
+.body__header {
+    height: 82vh;
+    margin-bottom: 80px;
+}
+
+.navbar {
+    position: relative;
+}
+
+.brand__image {
+    width: 90%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #222222;
+    margin: 0 8px;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:last-child{
+    margin-right: 0;
+}
+
+.header__banner {
+    padding: 0 100px;
+}
+
+.carousel__content {
+    width: 100%;
+    padding-top:0 ;
+    margin-top: 80px;
+}
+
+.carousel__image {
+    width: 700px;
+}
+
+.image__turtle {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+    margin-top: 18px;
+    background-image: url('/image/Turtle-shadow.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 0;
+}
+
+.carousel__heading {
+    width: 80%;
+    font-size: 26px;
+    margin-bottom: 13px;
+}
+
+.carousel__paragraph {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.carousel-indicators {
+    bottom: 0%;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.carousel-control-prev,.carousel-control-next {
+    display: none;
+}
+	
+
+.banner__button>.carousel__button {
+    background: #50BEC9;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    padding: 11px 50px;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+
+    
+    /*******************************
+    *
+    * #section aboutAvanti
+    *
+    *******************************/
+
+    .aboutAvanti__content {
+        padding: 40px 0 30px 50px;
+    }
+
+
+
+
+    /*******************************
+    *
+    * #section initiative   
+    *
+    *******************************/
+
+    .section__initiative {
+        position: relative;
+        margin: 0 0 80px 0;
+    }
+
+    .initiative__backRectangle {
+        display: none;
+    }   
+
+    .initiative__heading {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 26px;
+        padding-top: 10px;
+    }
+
+    .initiative__paragraph {
+        padding-right: 30px;
+    }
+
+    .initiative__image>img {
+        width: 100%;
+        height: fit-content;
+    }
+
+   
+    
+    
+    /*******************************
+    *
+    * #section exploreAvanti
+    *
+    *******************************/
+
+    .explore__content {
+        width: 92%;
+        padding: 40px 0;
+    }
+
+    .content__cursive {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .content__heading {
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    
+    .content__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 1;
+    }
+    
+    .content__heading.link {
+        width: auto;
+        border: 0;
+        margin-top: 60px;
+        padding-bottom: 8px;
+    }
+ 
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+
+
+    
+
+
+    /*******************************
+    *
+    * #section certifications
+    *
+    *******************************/
+
+
+ 
+    /*******************************
+    *
+    * #section exploreAvanti
+    *
+    *******************************/
+
+    .content__heading.link {
+        width: 45%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
